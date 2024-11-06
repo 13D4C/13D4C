@@ -23,6 +23,9 @@
 
 <!-- Top Languages Card -->
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=13D4C&layout=compact&theme=radical&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=true)](https://github.com/13D4C)
+
+<!-- GitHub Activity Graph -->
+[![13D4C's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=13D4C&theme=rogue&bg_color=20232a&hide_border=true&line=904e95&color=e96443)](https://github.com/13D4C)
 </div>
 
 ## 🤝 Connect with Me
