@@ -18,7 +18,8 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-[![13D4C's GitHub Stats](https://github-readme-stats.vercel.app/api?username=13D4C&show_icons=true&theme=merko)](https://github.com/13D4C/github-readme-stats)
+<!-- GitHub Stats Card with Gradient Theme -->
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=13D4C&show_icons=true&theme=radical&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&hide_border=true)](https://github.com/13D4C)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=13D4C&layout=compact&theme=merko)](https://github.com/13D4C/github-readme-stats)
 
