@@ -16,13 +16,15 @@
 </div>
 
 ## 📊 GitHub Stats
-<div align="center">
 
-<!-- GitHub Stats Card with Gradient Theme -->
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=13D4C&show_icons=true&theme=radical&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&icon_color=fff&hide_border=true)](https://github.com/13D4C)
-
-<!-- Top Languages Card -->
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=13D4C&layout=compact&theme=radical&bg_color=30,e96443,904e95&title_color=fff&text_color=fff&hide_border=true)](https://github.com/13D4C)
+
+
+</div>
+<div align="center">
 
 <!-- GitHub Activity Graph -->
 [![13D4C's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=13D4C&theme=rogue&bg_color=20232a&hide_border=true&line=904e95&color=e96443)](https://github.com/13D4C)
