@@ -11,7 +11,7 @@
 ## 💻 Skills & Tools
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,py,cpp,figma,ai,ps,pr,ae,tensorflow)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,py,cpp,figma,ai,ps,pr,ae,tensorflow,go)](https://skillicons.dev)
 
 </div>
 
