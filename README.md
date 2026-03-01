@@ -18,10 +18,12 @@
 ## 💻 Skills & Tools
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,py,cpp,go,svelte,tensorflow,docker,ansible,terraform,aws,gcp,figma,ai,ps,pr,ae&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,py,cpp,java,ts,cs,go,svelte,grafana,linux,opencv,raspberrypi,postgres,mongo,tensorflow,docker,ansible,terraform,aws,gcp,figma,ai,ps,pr,ae&perline=10)](https://skillicons.dev)
 
 <br><br>
 
+<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+<img src="https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=Ollama&logoColor=black" alt="Ollama"/>
 <img src="https://img.shields.io/badge/Huawei%20Cloud-%23E3121E.svg?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei Cloud"/>
 <img src="https://img.shields.io/badge/k6-%237D64FF.svg?style=for-the-badge&logo=k6&logoColor=white" alt="k6"/>
 
