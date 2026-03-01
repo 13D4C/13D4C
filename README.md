@@ -49,6 +49,17 @@
 </div>
 
 ---
+## 🏆 Certifications
+
+<div align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/HCCDA-Tech%20Essentials-%23E3121E.svg?style=for-the-badge&logo=huawei&logoColor=white" alt="HCCDA Tech Essentials"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#">
+    <img src="https://img.shields.io/badge/HCCDP-Solution%20Architect-%23E3121E.svg?style=for-the-badge&logo=huawei&logoColor=white" alt="HCCDP Solution Architect"/>
+  </a>
+</div>
 
 ## 🤝 Connect with Me
 <div align="center">
@@ -61,6 +72,9 @@
   <a href="https://www.github.com/13D4C" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://www.linkedin.com/in/atibodee-kuiprasert-a745a0259/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </div>
 
 <br/>
@@ -68,3 +82,4 @@
 <div align="center">
   <i>Thanks for visiting my profile! Feel free to connect with me 😊</i>
 </div>
+
