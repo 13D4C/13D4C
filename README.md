@@ -46,7 +46,7 @@
 
 <div align="center">
   <a href="https://github.com/13D4C" target="_blank">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=13D4C&theme=rogue&bg_color=20232a&hide_border=true&line=904e95&color=e96443" alt="13D4C's github activity graph" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=13D4C&theme=rogue&bg_color=20232a&hide_border=true&line=904e95&color=e96443&custom_title=13D4C's%20Contribution%20Graph&days=31" alt="13D4C's github activity graph" width="100%" />
   </a>
 </div>
 
