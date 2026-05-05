@@ -6,6 +6,7 @@
 <br/>
 
 ## 🦆 About Me
+
 > *"My name is D, and I am a student at the Faculty of Information Technology, KMITL. I consider myself the 'Duck of IT'—versatile, adaptable, and dedicated to enhancing my skills in various areas. I hope you will appreciate my efforts!"*
 
 - 🌍 Based in **Thailand**
@@ -16,6 +17,7 @@
 ---
 
 ## 💻 Skills & Tools
+
 <div align="center">
 
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,py,cpp,java,ts,cs,go,svelte,grafana,linux,opencv,raspberrypi,postgres,mongo,tensorflow,docker,ansible,terraform,aws,gcp,figma,ai,ps,pr,ae&perline=10)](https://skillicons.dev)
@@ -33,14 +35,14 @@
 
 ## 📊 GitHub Stats
 
+
+
+
+
 <div align="center">
-  <a href="https://github.com/13D4C" target="_blank">
-    <img src="https://gh-readme-profile.vercel.app/api?username=13D4C&theme=dark" alt="D4C's GitHub Stats" />
-  </a>
-  <a href="https://github.com/13D4C" target="_blank">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=13D4C&theme=dark" alt="Top Languages by Repo" />
-  </a>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=13D4C&theme=dracula" alt="Top Languages by Repo" width="100%"/>
 </div>
+
 
 <br/>
 
@@ -51,6 +53,7 @@
 </div>
 
 ---
+
 ## 🏆 Certifications
 
 <div align="center">
@@ -63,7 +66,10 @@
   </a>
 </div>
 
+---
+
 ## 🤝 Connect with Me
+
 <div align="center">
   <a href="https://www.facebook.com/profile.php?id=100016991280897" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
@@ -82,6 +88,13 @@
 <br/>
 
 <div align="center">
-  <i>Thanks for visiting my profile! Feel free to connect with me 😊</i>
+  <a href="https://github.com/13D4C">
+    <img src="https://komarev.com/ghpvc/?username=13D4C&label=Profile%20views&color=904e95&style=for-the-badge" alt="Profile views"/>
+  </a>
 </div>
 
+<br/>
+
+<div align="center">
+  <i>Thanks for visiting my profile! Feel free to connect with me 😊</i>
+</div>
