@@ -1,9 +1,43 @@
-<div align="center">
-  <h1>Hi there! <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30"> I'm Atibodee Kuiprasert (D)</h1>
-  <h3>🦆 The "Duck of IT" | IT Student at KMITL 🇹🇭</h3>
-</div>
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/hero-mobile.png">
+  <img src="./assets/profile/hero.png" width="100%" alt="Atibodee Kuiprasert (D) — 13D4C, with Go Gopher and the Duck of IT. IT student at KMITL, Thailand. Code, design, and infrastructure.">
+</picture>
 
-<br/>
+<p align="center">
+  <a href="https://atibodee.13chady.com"><img src="./assets/profile/link-portfolio.svg" width="142" height="36" alt="Visit my portfolio"></a>
+  <a href="https://www.linkedin.com/in/atibodee-kuiprasert-a745a0259/"><img src="./assets/profile/link-linkedin.svg" width="142" height="36" alt="Connect on LinkedIn"></a>
+  <a href="https://github.com/13D4C"><img src="./assets/profile/link-github.svg" width="142" height="36" alt="Browse my GitHub"></a>
+  <a href="https://www.facebook.com/profile.php?id=100016991280897"><img src="./assets/profile/link-facebook.svg" width="142" height="36" alt="Connect on Facebook"></a>
+  <a href="https://www.instagram.com/anan13_crow/"><img src="./assets/profile/link-instagram.svg" width="142" height="36" alt="Find me on Instagram"></a>
+</p>
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/about-mobile.svg">
+  <img src="./assets/profile/about.svg" width="100%" alt="About me: Atibodee Kuiprasert (D), Faculty of Information Technology, KMITL. Based in Thailand. Versatile, adaptable, and always learning.">
+</picture>
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/research-mobile.svg">
+  <img src="./assets/profile/research.svg" width="100%" alt="Research: Quantization Calibration and Speculative Decoding for On-Device Thai LLMs: A Measurement Study (INCIT 2026); ZoonoMoE: A Voice-Driven Zoonotic Disease Surveillance System via Mixture-of-Experts Routing and Domain-Partitioned Retrieval-Augmented Generation (ICONLP).">
+</picture>
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/awards-mobile.svg">
+  <img src="./assets/profile/awards.svg" width="100%" alt="Competitions: Winner, KrungsriUniVerse × KMITL Mule Hunt Challenge; 2nd Runner-up, Huawei National ICT Competition 2025–2026, Cloud Track, Team Machima; Honourable Mention, Blue Guardians: A Defensive CTF Challenge.">
+</picture>
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/toolkit-mobile.svg">
+  <img src="./assets/profile/toolkit.svg" width="100%" alt="Skills and tools across code, web, cloud, infrastructure, data, systems, networking, observability, AI, hardware, and design. Expand the text version below for the full list.">
+</picture>
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/certifications-mobile.svg">
+  <img src="./assets/profile/certifications.svg" width="100%" alt="Huawei certifications: HCCDA — Tech Essentials; HCCDP — Solution Architect.">
+</picture>
+
+<details>
+<summary><strong>Read the full profile &amp; complete technology stack as text</strong></summary>
 
 ## 🦆 About Me
 
@@ -67,8 +101,13 @@
 - 📘 **Facebook** — [Atibodee Kuiprasert](https://www.facebook.com/profile.php?id=100016991280897)
 - 📷 **Instagram** — [@anan13_crow](https://www.instagram.com/anan13_crow/)
 
-<br/>
+</details>
 
-<div align="center">
-  <i>Thanks for visiting my profile! Feel free to connect with me 😊</i>
-</div>
+<a href="https://atibodee.13chady.com">
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/profile/footer-mobile.png">
+  <img src="./assets/profile/footer.png" width="100%" alt="Go Gopher × Duck of IT. Stay curious. Keep building. Connect at atibodee.13chady.com.">
+</picture>
+</a>
+
+<sub>Go Gopher by [Renée French](https://go.dev/blog/gopher), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Mascot duo artwork: AI-generated adaptation with an original duck.</sub>

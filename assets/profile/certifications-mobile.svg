@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="477" viewBox="0 0 600 477" role="img" aria-labelledby="title desc">
+<title id="title">Huawei certifications</title><desc id="desc">HCCDA — Tech Essentials. HCCDP — Solution Architect. Both certifications from Huawei.</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0a2532"/><stop offset="1" stop-color="#071b25"/></linearGradient>
+ <linearGradient id="duck" x2=".8" y2="1"><stop stop-color="#fff0af"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#005e78" stop-opacity=".65"/><stop offset="1" stop-color="#0c3445" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#47798d" stroke-width=".6" opacity=".13"/></pattern>
+ <clipPath id="clip"><rect width="600" height="477" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="600" height="477" fill="url(#base)"/>
+ <rect width="600" height="477" fill="url(#grid)"/>
+ <text x="36" y="55" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">04 / CERTIFICATIONS</text><text x="36" y="107" font-family="Georgia, DejaVu Serif, serif" font-size="37" font-weight="400" fill="#f4fbff" >Built on solid foundations.</text><rect x="36" y="145" width="528" height="134" rx="16" fill="#0d2836" stroke="#254c60"/><text x="60" y="183" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">HUAWEI</text><text x="60" y="229" font-family="Georgia, DejaVu Serif, serif" font-size="34" font-weight="400" fill="#ffd166" >HCCDA</text><text x="228" y="226" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Tech Essentials</text><rect x="36" y="300" width="528" height="134" rx="16" fill="#0d2836" stroke="#254c60"/><text x="60" y="338" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">HUAWEI</text><text x="60" y="384" font-family="Georgia, DejaVu Serif, serif" font-size="34" font-weight="400" fill="#ffd166" >HCCDP</text><text x="228" y="381" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Solution Architect</text>
+</g><rect x=".75" y=".75" width="598.5" height="475.5" rx="24" fill="none" stroke="#254c60" stroke-width="1.5"/>
+</svg>

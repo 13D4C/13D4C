@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="688" viewBox="0 0 600 688" role="img" aria-labelledby="title desc">
+<title id="title">About me</title><desc id="desc">Atibodee Kuiprasert (D), based in Thailand. Student at the Faculty of Information Technology, KMITL. Versatile, adaptable, and dedicated to improving skills in coding, design, and infrastructure.</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0a2532"/><stop offset="1" stop-color="#071b25"/></linearGradient>
+ <linearGradient id="duck" x2=".8" y2="1"><stop stop-color="#fff0af"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#005e78" stop-opacity=".65"/><stop offset="1" stop-color="#0c3445" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#47798d" stroke-width=".6" opacity=".13"/></pattern>
+ <clipPath id="clip"><rect width="600" height="688" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="600" height="688" fill="url(#base)"/>
+ <rect width="600" height="688" fill="url(#grid)"/>
+ <text x="36" y="48" font-family="DejaVu Sans Mono, monospace" font-size="18" font-weight="400" fill="#68dce8" letter-spacing="2">d@13d4c:~ / profile</text><path d="M0 73h600" stroke="#254c60"/><text x="36" y="125" font-family="DejaVu Sans Mono, monospace" font-size="25" font-weight="400" fill="#68dce8" >&gt; whoami</text><text x="36" y="178" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">NAME</text><text x="36" y="216" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Atibodee Kuiprasert (D)</text><text x="36" y="278" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">EDUCATION</text><text x="36" y="316" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Faculty of Information Technology,</text><text x="36" y="350" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >KMITL</text><text x="36" y="404" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">BASED IN</text><text x="36" y="442" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Thailand</text><text x="36" y="504" font-family="DejaVu Sans Mono, monospace" font-size="17" font-weight="400" fill="#68dce8" letter-spacing="2">MINDSET</text><text x="36" y="542" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="400" fill="#f4fbff" >Versatile. Adaptable. Always learning.</text><path d="M36 613h528" stroke="#254c60"/><text x="36" y="655" font-family="Georgia, DejaVu Serif, serif" font-size="22" font-weight="400" fill="#ffd166" font-style="italic">A little of everything. Still exploring.</text>
+</g><rect x=".75" y=".75" width="598.5" height="686.5" rx="24" fill="none" stroke="#254c60" stroke-width="1.5"/>
+</svg>

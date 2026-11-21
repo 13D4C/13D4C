@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+<title id="title">Atibodee Kuiprasert | Go Gopher &amp; Duck of IT</title><desc id="desc">Atibodee Kuiprasert (D), 13D4C. IT student at KMITL, Thailand. The cyan Go Gopher and a yellow duck with headphones share a laptop. Go Gopher by Renee French, CC BY 4.0; AI-generated adaptation paired with an original duck.</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0a2532"/><stop offset="1" stop-color="#071b25"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#00add8" stop-opacity=".22"/><stop offset="1" stop-color="#0c3445" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#47798d" stroke-width=".6" opacity=".14"/></pattern>
+ <clipPath id="clip"><rect width="1200" height="490" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="1200" height="490" fill="url(#base)"/>
+ <rect width="1200" height="490" fill="url(#grid)"/>
+ <text x="56" y="53" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#68dce8" letter-spacing="2">13D4C / GO GOPHER &amp; DUCK OF IT</text><text x="56" y="150" font-family="Georgia, DejaVu Serif, serif" font-size="76" fill="#f4fbff" >Atibodee</text><text x="56" y="239" font-family="Georgia, DejaVu Serif, serif" font-size="76" fill="#f4fbff" >Kuiprasert.</text><text x="56" y="301" font-family="Georgia, DejaVu Serif, serif" font-size="38" fill="#ffd166" font-style="italic">The Duck of IT.</text><text x="56" y="347" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" fill="#b0c8d3" >Code. Design. Infrastructure.</text><path d="M56 391h605" stroke="#254c60"/><text x="56" y="439" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#68dce8" letter-spacing="2">IT STUDENT @ KMITL</text><circle cx="941" cy="231" r="213" fill="url(#glow)"/>
+ <circle cx="941" cy="231" r="183" fill="none" stroke="#1c6078" stroke-dasharray="2 10"/>
+ <ellipse cx="941" cy="231" rx="203" ry="87.84" transform="rotate(-28 941 231)" fill="none" stroke="#1c6078"/>
+ <circle cx="1087.4" cy="121.2" r="6" fill="#00add8"/>
+ <path d="M785.45 112.05h16m-8-8v16" stroke="#ffd166" stroke-width="2"/><image href="gopher-duck.png" x="695" y="-33" width="510" height="510" preserveAspectRatio="xMidYMid meet"/><text x="792" y="448" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#68dce8" letter-spacing="2">GO GOPHER × DUCK</text>
+</g><rect x=".75" y=".75" width="1198.5" height="488.5" rx="24" fill="none" stroke="#254c60" stroke-width="1.5"/>
+</svg>

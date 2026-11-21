@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Stay curious. Keep building.</title><desc id="desc">Go Gopher and Duck of IT. Connect with Atibodee at atibodee.13chady.com. Go Gopher by Renee French, CC BY 4.0; AI-generated adaptation paired with an original duck.</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0a2532"/><stop offset="1" stop-color="#071b25"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#00add8" stop-opacity=".22"/><stop offset="1" stop-color="#0c3445" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#47798d" stroke-width=".6" opacity=".14"/></pattern>
+ <clipPath id="clip"><rect width="1200" height="260" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="1200" height="260" fill="url(#base)"/>
+ <rect width="1200" height="260" fill="url(#grid)"/>
+ <text x="56" y="48" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#68dce8" letter-spacing="2">GO GOPHER × DUCK / KEEP EXPLORING</text><text x="56" y="114" font-family="Georgia, DejaVu Serif, serif" font-size="46" fill="#f4fbff" >Stay curious. Keep building.</text><text x="56" y="159" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" fill="#b0c8d3" >A little of everything. Always learning.</text><text x="56" y="214" font-family="DejaVu Sans Mono, monospace" font-size="23" fill="#68dce8" >atibodee.13chady.com</text><text x="361" y="214" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" fill="#ffd166" >↗</text><circle cx="1020" cy="128" r="136" fill="url(#glow)"/>
+ <circle cx="1020" cy="128" r="106" fill="none" stroke="#1c6078" stroke-dasharray="2 10"/>
+ <ellipse cx="1020" cy="128" rx="126" ry="50.879999999999995" transform="rotate(-28 1020 128)" fill="none" stroke="#1c6078"/>
+ <circle cx="1104.8" cy="64.4" r="6" fill="#00add8"/>
+ <path d="M929.9 59.099999999999994h16m-8-8v16" stroke="#ffd166" stroke-width="2"/><image href="gopher-duck.png" x="867" y="-17" width="300" height="300" preserveAspectRatio="xMidYMid meet"/>
+</g><rect x=".75" y=".75" width="1198.5" height="258.5" rx="24" fill="none" stroke="#254c60" stroke-width="1.5"/>
+</svg>

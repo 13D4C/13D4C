@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="36" viewBox="0 0 142 36" role="img" aria-labelledby="title desc">
+<title id="title">Facebook</title><desc id="desc">Open Facebook</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#0a2532"/><stop offset="1" stop-color="#071b25"/></linearGradient>
+ <linearGradient id="duck" x2=".8" y2="1"><stop stop-color="#fff0af"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#005e78" stop-opacity=".65"/><stop offset="1" stop-color="#0c3445" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#47798d" stroke-width=".6" opacity=".13"/></pattern>
+ <clipPath id="clip"><rect width="142" height="36" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="142" height="36" fill="url(#base)"/>
+ <rect width="142" height="36" fill="url(#grid)"/>
+ <rect x="1" y="1" width="140" height="34" rx="8" fill="#103548" stroke="#254c60"/><text x="14" y="24" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="400" fill="#f4fbff" >Facebook</text><text x="119" y="23" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#68dce8" >↗</text>
+</g><rect x=".75" y=".75" width="140.5" height="34.5" rx="24" fill="none" stroke="#254c60" stroke-width="1.5"/>
+</svg>
