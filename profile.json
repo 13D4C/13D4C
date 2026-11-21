@@ -1,0 +1,96 @@
+{
+  "name": "Atibodee Kuiprasert",
+  "nickname": "D",
+  "handle": "13D4C",
+  "tagline": "The Duck of IT.",
+  "location": "Thailand",
+  "education": "Faculty of Information Technology, KMITL",
+  "introduction": "I'm D, an IT student at KMITL. I work across web development, cloud infrastructure, networking, and AI projects. Like a duck, I enjoy adapting to different environments and learning how the pieces fit together.",
+  "links": [
+    ["Portfolio", "https://atibodee.13chady.com"],
+    ["LinkedIn", "https://www.linkedin.com/in/atibodee-kuiprasert-a745a0259/"],
+    ["GitHub", "https://github.com/13D4C"],
+    ["Facebook", "https://www.facebook.com/profile.php?id=100016991280897"],
+    ["Instagram", "https://www.instagram.com/anan13_crow/"]
+  ],
+  "work": [
+    {
+      "name": "D-judge / Judge-DD",
+      "category": "SOFTWARE & AI",
+      "role": "Project co-owner",
+      "description": "An AI-assisted homework assessment system with tools for grading submissions and generating rubrics.",
+      "highlights": ["Homework assessment", "Rubric generation"],
+      "url": null
+    },
+    {
+      "name": "IT KMITL Timetable",
+      "category": "WEB DEVELOPMENT",
+      "role": "Project Manager & Frontend Developer",
+      "description": "A website for viewing class and examination schedules, with timetable export as an image.",
+      "highlights": ["Class & exam schedules", "Image export"],
+      "url": null
+    },
+    {
+      "name": "Smartpot / Smart Farm IoT",
+      "category": "HARDWARE & IOT",
+      "role": "Team project member",
+      "description": "A physical computing project for environmental monitoring and automated plant watering, using ESP32 and sensors.",
+      "highlights": ["ESP32 & sensors", "Automated watering"],
+      "url": "https://github.com/13D4C/Physical-Com-Project"
+    }
+  ],
+  "teaching": {
+    "role": "Teaching Assistant",
+    "organization": "Faculty of Information Technology, KMITL",
+    "subjects": ["Computer Networks", "Object-Oriented Programming", "Data Structures & Algorithms"]
+  },
+  "research": [
+    {
+      "title": "Quantization Calibration and Speculative Decoding for On-Device Thai LLMs: A Measurement Study",
+      "venue": "INCIT 2026",
+      "focus": "On-device Thai LLMs · Quantization · Speculative decoding"
+    },
+    {
+      "title": "ZoonoMoE: A Voice-Driven Zoonotic Disease Surveillance System via Mixture-of-Experts Routing and Domain-Partitioned Retrieval-Augmented Generation",
+      "venue": "ICONLP",
+      "focus": "Voice-driven surveillance · Mixture of Experts · RAG"
+    }
+  ],
+  "awards": [
+    {
+      "rank": "01",
+      "award": "Winner",
+      "title": "KrungsriUniVerse × KMITL Hackathon: Mule Hunt Challenge",
+      "details": "Organised by the Faculty of Science, KMITL together with Bank of Ayudhya (Krungsri)."
+    },
+    {
+      "rank": "03",
+      "award": "2nd Runner-up",
+      "title": "Huawei National ICT Competition 2025–2026",
+      "details": "Cloud Track · Team Machima · Huawei Technologies (Thailand)."
+    },
+    {
+      "rank": "HM",
+      "award": "Honourable Mention",
+      "title": "Blue Guardians: A Defensive CTF Challenge",
+      "details": "Organised by MFEC together with the National Cyber Security Agency (NCSA) and Secure D."
+    }
+  ],
+  "certifications": [
+    ["HCCDA", "Tech Essentials", "Huawei"],
+    ["HCCDP", "Solution Architect", "Huawei"]
+  ],
+  "skills": [
+    ["Languages", ["Go", "Python", "TypeScript", "JavaScript", "Java", "C++", "C#", "Bash"]],
+    ["Web", ["HTML", "CSS", "Svelte", "Next.js", "Tailwind CSS"]],
+    ["Databases", ["PostgreSQL", "MongoDB", "MariaDB", "ClickHouse", "SQL"]],
+    ["Deployment & IaC", ["Docker", "Podman", "Terraform", "OpenTofu", "Ansible"]],
+    ["Cloud", ["AWS", "GCP", "Azure", "Cloudflare", "Huawei Cloud"]],
+    ["AI / ML", ["PyTorch", "TensorFlow", "OpenCV", "YOLO", "Ollama", "Qwen", "DeepSeek", "Gemma", "VLM"]],
+    ["Networking", ["Cisco", "Huawei", "Palo Alto", "Fortinet"]],
+    ["Monitoring & Testing", ["Grafana", "Prometheus", "k6", "Loki", "Tempo", "Mimir", "Cloudprober"]],
+    ["Hardware", ["Raspberry Pi", "Arduino", "Jetson Nano"]],
+    ["Systems & Tools", ["Linux", "Nginx", "GitLab", "Git", "Airflow", "Tailscale", "Proxmox"]],
+    ["Design", ["Figma", "Illustrator", "Photoshop", "Premiere Pro", "After Effects"]]
+  ]
+}
