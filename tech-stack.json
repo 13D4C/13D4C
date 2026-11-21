@@ -1,46 +1,372 @@
 [
   {
     "category": "Languages",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8\" alt=\"Go, Python, TypeScript, JavaScript, Java, C++, C#, Bash\"/>"
+    "items": [
+      {
+        "name": "Go",
+        "icon": "icons/go.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "Python",
+        "icon": "icons/python.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "icons/typescript.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "icons/javascript.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "Java",
+        "icon": "icons/java.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "C++",
+        "icon": "icons/cpp.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "C#",
+        "icon": "icons/csharp.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      },
+      {
+        "name": "Bash",
+        "icon": "icons/bash.png",
+        "source": "https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8"
+      }
+    ]
   },
   {
     "category": "Web",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5\" alt=\"HTML, CSS, Svelte, Next.js, Tailwind CSS\"/>"
+    "items": [
+      {
+        "name": "HTML",
+        "icon": "icons/html.png",
+        "source": "https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5"
+      },
+      {
+        "name": "CSS",
+        "icon": "icons/css.png",
+        "source": "https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5"
+      },
+      {
+        "name": "Svelte",
+        "icon": "icons/svelte.png",
+        "source": "https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5"
+      },
+      {
+        "name": "Next.js",
+        "icon": "icons/next-js.png",
+        "source": "https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "icons/tailwind-css.png",
+        "source": "https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5"
+      }
+    ]
   },
   {
     "category": "Databases",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=postgres,mongo&perline=2\" alt=\"PostgreSQL, MongoDB\"/> <img height=\"28\" src=\"https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white\" alt=\"MariaDB\"/> <img height=\"28\" src=\"https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black\" alt=\"ClickHouse\"/> <img height=\"28\" src=\"https://img.shields.io/badge/SQL-336791?style=for-the-badge\" alt=\"SQL\"/>"
+    "items": [
+      {
+        "name": "PostgreSQL",
+        "icon": "icons/postgresql.png",
+        "source": "https://skillicons.dev/icons?i=postgres,mongo&perline=2"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "icons/mongodb.png",
+        "source": "https://skillicons.dev/icons?i=postgres,mongo&perline=2"
+      },
+      {
+        "name": "MariaDB",
+        "icon": "icons/mariadb.png",
+        "source": "https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"
+      },
+      {
+        "name": "ClickHouse",
+        "icon": "icons/clickhouse.png",
+        "source": "https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black"
+      },
+      {
+        "name": "SQL",
+        "icon": "icons/sql.png",
+        "source": "Native category symbol"
+      }
+    ]
   },
   {
     "category": "Deployment & IaC",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=docker,terraform,ansible&perline=3\" alt=\"Docker, Terraform, Ansible\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white\" alt=\"Podman\"/> <img height=\"28\" src=\"https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black\" alt=\"OpenTofu\"/>"
+    "items": [
+      {
+        "name": "Docker",
+        "icon": "icons/docker.png",
+        "source": "https://skillicons.dev/icons?i=docker,terraform,ansible&perline=3"
+      },
+      {
+        "name": "Podman",
+        "icon": "icons/podman.png",
+        "source": "https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white"
+      },
+      {
+        "name": "Terraform",
+        "icon": "icons/terraform.png",
+        "source": "https://skillicons.dev/icons?i=docker,terraform,ansible&perline=3"
+      },
+      {
+        "name": "OpenTofu",
+        "icon": "icons/opentofu.png",
+        "source": "https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black"
+      },
+      {
+        "name": "Ansible",
+        "icon": "icons/ansible.png",
+        "source": "https://skillicons.dev/icons?i=docker,terraform,ansible&perline=3"
+      }
+    ]
   },
   {
     "category": "Cloud",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4\" alt=\"AWS, Google Cloud, Azure, Cloudflare\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Huawei%20Cloud-E3121E?style=for-the-badge&logo=huawei&logoColor=white\" alt=\"Huawei Cloud\"/>"
+    "items": [
+      {
+        "name": "AWS",
+        "icon": "icons/aws.png",
+        "source": "https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4"
+      },
+      {
+        "name": "GCP",
+        "icon": "icons/gcp.png",
+        "source": "https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4"
+      },
+      {
+        "name": "Azure",
+        "icon": "icons/azure.png",
+        "source": "https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4"
+      },
+      {
+        "name": "Cloudflare",
+        "icon": "icons/cloudflare.png",
+        "source": "https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4"
+      },
+      {
+        "name": "Huawei Cloud",
+        "icon": "icons/huawei-cloud.png",
+        "source": "https://img.shields.io/badge/Huawei%20Cloud-E3121E?style=for-the-badge&logo=huawei&logoColor=white"
+      }
+    ]
   },
   {
     "category": "AI / ML",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=3\" alt=\"PyTorch, TensorFlow, OpenCV\"/> <img height=\"28\" src=\"https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=ultralytics&logoColor=white\" alt=\"YOLO\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=black\" alt=\"Ollama\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Qwen-6950EF?style=for-the-badge&logo=qwen&logoColor=white\" alt=\"Qwen\"/> <img height=\"28\" src=\"https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white\" alt=\"DeepSeek\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Gemma-4285F4?style=for-the-badge\" alt=\"Gemma\"/> <img height=\"28\" src=\"https://img.shields.io/badge/VLM-7C3AED?style=for-the-badge\" alt=\"VLM\"/>"
+    "items": [
+      {
+        "name": "PyTorch",
+        "icon": "icons/pytorch.png",
+        "source": "https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=3"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "icons/tensorflow.png",
+        "source": "https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=3"
+      },
+      {
+        "name": "OpenCV",
+        "icon": "icons/opencv.png",
+        "source": "https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=3"
+      },
+      {
+        "name": "YOLO",
+        "icon": "icons/yolo.png",
+        "source": "https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=ultralytics&logoColor=white"
+      },
+      {
+        "name": "Ollama",
+        "icon": "icons/ollama.png",
+        "source": "https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=black"
+      },
+      {
+        "name": "Qwen",
+        "icon": "icons/qwen.png",
+        "source": "https://img.shields.io/badge/Qwen-6950EF?style=for-the-badge&logo=qwen&logoColor=white"
+      },
+      {
+        "name": "DeepSeek",
+        "icon": "icons/deepseek.png",
+        "source": "https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"
+      },
+      {
+        "name": "Gemma",
+        "icon": "icons/gemma.png",
+        "source": "Native category symbol"
+      },
+      {
+        "name": "VLM",
+        "icon": "icons/vlm.png",
+        "source": "Native category symbol"
+      }
+    ]
   },
   {
     "category": "Networking",
-    "html": "<img height=\"28\" src=\"https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white\" alt=\"Cisco\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Huawei-E3121E?style=for-the-badge&logo=huawei&logoColor=white\" alt=\"Huawei\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Palo%20Alto-F04E23?style=for-the-badge&logo=paloaltonetworks&logoColor=white\" alt=\"Palo Alto\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white\" alt=\"Fortinet\"/>"
+    "items": [
+      {
+        "name": "Cisco",
+        "icon": "icons/cisco.png",
+        "source": "https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"
+      },
+      {
+        "name": "Huawei",
+        "icon": "icons/huawei.png",
+        "source": "https://img.shields.io/badge/Huawei-E3121E?style=for-the-badge&logo=huawei&logoColor=white"
+      },
+      {
+        "name": "Palo Alto",
+        "icon": "icons/palo-alto.png",
+        "source": "https://img.shields.io/badge/Palo%20Alto-F04E23?style=for-the-badge&logo=paloaltonetworks&logoColor=white"
+      },
+      {
+        "name": "Fortinet",
+        "icon": "icons/fortinet.png",
+        "source": "https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white"
+      }
+    ]
   },
   {
     "category": "Monitoring & Testing",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=grafana,prometheus&perline=2\" alt=\"Grafana, Prometheus\"/> <img height=\"28\" src=\"https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white\" alt=\"k6\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white\" alt=\"Loki\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white\" alt=\"Tempo\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Mimir-F46800?style=for-the-badge&logo=grafana&logoColor=white\" alt=\"Mimir\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Cloudprober-0F2A43?style=for-the-badge\" alt=\"Cloudprober\"/>"
+    "items": [
+      {
+        "name": "Grafana",
+        "icon": "icons/grafana.png",
+        "source": "https://skillicons.dev/icons?i=grafana,prometheus&perline=2"
+      },
+      {
+        "name": "Prometheus",
+        "icon": "icons/prometheus.png",
+        "source": "https://skillicons.dev/icons?i=grafana,prometheus&perline=2"
+      },
+      {
+        "name": "k6",
+        "icon": "icons/k6.png",
+        "source": "https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white"
+      },
+      {
+        "name": "Loki",
+        "icon": "icons/loki.png",
+        "source": "https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "name": "Tempo",
+        "icon": "icons/tempo.png",
+        "source": "https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "name": "Mimir",
+        "icon": "icons/mimir.png",
+        "source": "https://img.shields.io/badge/Mimir-F46800?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "name": "Cloudprober",
+        "icon": "icons/cloudprober.png",
+        "source": "Native category symbol"
+      }
+    ]
   },
   {
     "category": "Hardware",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=raspberrypi,arduino&perline=2\" alt=\"Raspberry Pi, Arduino\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white\" alt=\"Jetson Nano\"/>"
+    "items": [
+      {
+        "name": "Raspberry Pi",
+        "icon": "icons/raspberry-pi.png",
+        "source": "https://skillicons.dev/icons?i=raspberrypi,arduino&perline=2"
+      },
+      {
+        "name": "Arduino",
+        "icon": "icons/arduino.png",
+        "source": "https://skillicons.dev/icons?i=raspberrypi,arduino&perline=2"
+      },
+      {
+        "name": "Jetson Nano",
+        "icon": "icons/jetson-nano.png",
+        "source": "https://img.shields.io/badge/Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white"
+      }
+    ]
   },
   {
     "category": "Systems & Tools",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4\" alt=\"Linux, Nginx, GitLab, Git\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white\" alt=\"Apache Airflow\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white\" alt=\"Tailscale\"/> <img height=\"28\" src=\"https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white\" alt=\"Proxmox\"/>"
+    "items": [
+      {
+        "name": "Linux",
+        "icon": "icons/linux.png",
+        "source": "https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4"
+      },
+      {
+        "name": "Nginx",
+        "icon": "icons/nginx.png",
+        "source": "https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4"
+      },
+      {
+        "name": "GitLab",
+        "icon": "icons/gitlab.png",
+        "source": "https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4"
+      },
+      {
+        "name": "Git",
+        "icon": "icons/git.png",
+        "source": "https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4"
+      },
+      {
+        "name": "Airflow",
+        "icon": "icons/airflow.png",
+        "source": "https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"
+      },
+      {
+        "name": "Tailscale",
+        "icon": "icons/tailscale.png",
+        "source": "https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white"
+      },
+      {
+        "name": "Proxmox",
+        "icon": "icons/proxmox.png",
+        "source": "https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white"
+      }
+    ]
   },
   {
     "category": "Design",
-    "html": "<img height=\"48\" src=\"https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5\" alt=\"Figma, Illustrator, Photoshop, Premiere Pro, After Effects\"/>"
+    "items": [
+      {
+        "name": "Figma",
+        "icon": "icons/figma.png",
+        "source": "https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5"
+      },
+      {
+        "name": "Illustrator",
+        "icon": "icons/illustrator.png",
+        "source": "https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5"
+      },
+      {
+        "name": "Photoshop",
+        "icon": "icons/photoshop.png",
+        "source": "https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5"
+      },
+      {
+        "name": "Premiere Pro",
+        "icon": "icons/premiere-pro.png",
+        "source": "https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5"
+      },
+      {
+        "name": "After Effects",
+        "icon": "icons/after-effects.png",
+        "source": "https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5"
+      }
+    ]
   }
 ]

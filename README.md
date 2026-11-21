@@ -37,52 +37,8 @@
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/profile/techstack-mobile.png">
-  <img src="./assets/profile/techstack.png" width="100%" alt="Tech Stack: languages, web, databases, cloud, infrastructure as code, AI, networking, monitoring, hardware, systems, and design, with the original technology logos.">
+  <img src="./assets/profile/techstack.png" width="100%" alt="Tech Stack: 11 themed cards with tool names and technology icons for languages, web, databases, infrastructure as code, cloud, AI, networking, monitoring, hardware, systems, and design. The complete text list is below.">
 </picture>
-
-### Languages
-
-<p><img height="48" src="https://skillicons.dev/icons?i=go,py,ts,js,java,cpp,cs,bash&perline=8" alt="Go, Python, TypeScript, JavaScript, Java, C++, C#, Bash"/></p>
-
-### Web
-
-<p><img height="48" src="https://skillicons.dev/icons?i=html,css,svelte,nextjs,tailwind&perline=5" alt="HTML, CSS, Svelte, Next.js, Tailwind CSS"/></p>
-
-### Databases
-
-<p><img height="48" src="https://skillicons.dev/icons?i=postgres,mongo&perline=2" alt="PostgreSQL, MongoDB"/> <img height="28" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/> <img height="28" src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" alt="ClickHouse"/> <img height="28" src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" alt="SQL"/></p>
-
-### Deployment & IaC
-
-<p><img height="48" src="https://skillicons.dev/icons?i=docker,terraform,ansible&perline=3" alt="Docker, Terraform, Ansible"/> <img height="28" src="https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white" alt="Podman"/> <img height="28" src="https://img.shields.io/badge/OpenTofu-FFDA18?style=for-the-badge&logo=opentofu&logoColor=black" alt="OpenTofu"/></p>
-
-### Cloud
-
-<p><img height="48" src="https://skillicons.dev/icons?i=aws,gcp,azure,cloudflare&perline=4" alt="AWS, Google Cloud, Azure, Cloudflare"/> <img height="28" src="https://img.shields.io/badge/Huawei%20Cloud-E3121E?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei Cloud"/></p>
-
-### AI / ML
-
-<p><img height="48" src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&perline=3" alt="PyTorch, TensorFlow, OpenCV"/> <img height="28" src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLO"/> <img height="28" src="https://img.shields.io/badge/Ollama-FFFFFF?style=for-the-badge&logo=ollama&logoColor=black" alt="Ollama"/> <img height="28" src="https://img.shields.io/badge/Qwen-6950EF?style=for-the-badge&logo=qwen&logoColor=white" alt="Qwen"/> <img height="28" src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek"/> <img height="28" src="https://img.shields.io/badge/Gemma-4285F4?style=for-the-badge" alt="Gemma"/> <img height="28" src="https://img.shields.io/badge/VLM-7C3AED?style=for-the-badge" alt="VLM"/></p>
-
-### Networking
-
-<p><img height="28" src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco"/> <img height="28" src="https://img.shields.io/badge/Huawei-E3121E?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei"/> <img height="28" src="https://img.shields.io/badge/Palo%20Alto-F04E23?style=for-the-badge&logo=paloaltonetworks&logoColor=white" alt="Palo Alto"/> <img height="28" src="https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white" alt="Fortinet"/></p>
-
-### Monitoring & Testing
-
-<p><img height="48" src="https://skillicons.dev/icons?i=grafana,prometheus&perline=2" alt="Grafana, Prometheus"/> <img height="28" src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white" alt="k6"/> <img height="28" src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Loki"/> <img height="28" src="https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Tempo"/> <img height="28" src="https://img.shields.io/badge/Mimir-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Mimir"/> <img height="28" src="https://img.shields.io/badge/Cloudprober-0F2A43?style=for-the-badge" alt="Cloudprober"/></p>
-
-### Hardware
-
-<p><img height="48" src="https://skillicons.dev/icons?i=raspberrypi,arduino&perline=2" alt="Raspberry Pi, Arduino"/> <img height="28" src="https://img.shields.io/badge/Jetson%20Nano-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Jetson Nano"/></p>
-
-### Systems & Tools
-
-<p><img height="48" src="https://skillicons.dev/icons?i=linux,nginx,gitlab,git&perline=4" alt="Linux, Nginx, GitLab, Git"/> <img height="28" src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Apache Airflow"/> <img height="28" src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white" alt="Tailscale"/> <img height="28" src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox"/></p>
-
-### Design
-
-<p><img height="48" src="https://skillicons.dev/icons?i=figma,ai,ps,pr,ae&perline=5" alt="Figma, Illustrator, Photoshop, Premiere Pro, After Effects"/></p>
 
 <picture>
   <source media="(max-width: 640px)" srcset="./assets/profile/certifications-mobile.png">

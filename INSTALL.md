@@ -9,7 +9,7 @@
 
 ## แก้ข้อมูลและสร้างภาพใหม่
 
-แก้ข้อมูลใน `profile.json` และโลโก้ Tech Stack ใน `tech-stack.json` แล้วใช้ Python ที่ติดตั้ง Pillow:
+แก้ข้อมูลใน `profile.json` และรายการโลโก้ใน `tech-stack.json` แล้วใช้ Python ที่ติดตั้ง Pillow โลโก้และภาพทั้งหมดมีไฟล์อยู่ใน `assets/profile` แล้ว:
 
 ```sh
 python -m pip install -r requirements.txt

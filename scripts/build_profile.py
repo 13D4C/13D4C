@@ -285,9 +285,61 @@ def toolkit(mobile=False):
     return rounded(im)
 
 
-def techstack(mobile=False):
-    im=canvas(640 if mobile else 1200,148)
+@lru_cache(maxsize=128)
+def tech_icon(relative_path, size):
+    with Image.open(OUT / relative_path) as source:
+        return source.convert('RGBA').resize((size, size), Image.Resampling.LANCZOS)
+
+
+def techstack(mobile=False, limit=None):
+    groups = json.loads((ROOT / 'tech-stack.json').read_text())
+    if limit is not None:
+        groups = groups[:limit]
+    w, p = (640, 36) if mobile else (1200, 56)
+    icon_size, text_size = (34, 24) if mobile else (30, 20)
+    pill_height = 62 if mobile else 54
+    gap = 12
+    layouts = []
+    for i, group in enumerate(groups):
+        full_width = mobile or (i == len(groups)-1 and len(groups) % 2)
+        card_width = w-2*p if full_width else 532
+        available = card_width-48
+        x = y = 0
+        items = []
+        for item in group['items']:
+            item_width = math.ceil(font(text_size).getlength(item['name'])) + icon_size + 40
+            if x and x+item_width > available:
+                x = 0
+                y += pill_height+gap
+            items.append((x, y, item_width, item))
+            x += item_width+gap
+        height = 100+y+pill_height
+        layouts.append((group, card_width, height, items))
+    if mobile:
+        row_heights = [layout[2] for layout in layouts]
+    else:
+        row_heights = [max(layout[2] for layout in layouts[i:i+2]) for i in range(0,len(layouts),2)]
+    h = 156+sum(row_heights)+20*(len(row_heights)-1)+36
+    im = canvas(w, h)
     header(im,'04','Tech Stack.','THE TOOLS BEHIND MY WORK',mobile)
+    for i, (group, card_width, _, items) in enumerate(layouts):
+        row = i if mobile else i//2
+        x = p if mobile else p+(i%2)*556
+        y = 156+sum(row_heights[:row])+row*20
+        card_height = row_heights[row]
+        box(im,(x,y,x+card_width,y+card_height))
+        txt(im,x+24,y+23,group['category'],26 if mobile else 25,WHITE,'bold')
+        txt(im,x+card_width-55,y+28,f'{i+1:02}',16,GOLD,'mono')
+        rule(im,x+24,y+65,card_width-48)
+        for px, py, item_width, item in items:
+            xx, yy = x+24+px, y+78+py
+            primary = item['name']=='Go'
+            box(im,(xx,yy,xx+item_width,yy+pill_height),fill='#103548',radius=12,
+                outline=GOLD if primary else '#2a586d')
+            im.alpha_composite(tech_icon(item['icon'],icon_size),
+                (round(xx+12),round(yy+(pill_height-icon_size)/2)))
+            txt(im,xx+icon_size+24,yy+(pill_height-text_size)/2-3,item['name'],
+                text_size,GOLD if primary else WHITE)
     return rounded(im)
 
 
@@ -359,7 +411,7 @@ def readme():
       'research':'; '.join(r['title']+' — '+r['venue'] for r in DATA['research']),
       'awards':'; '.join(a['award']+' — '+a['title'] for a in DATA['awards']),
       'toolkit':'Complete skills across languages, web, cloud, infrastructure as code, databases, systems, networking, observability, AI, hardware, and design. Full text below.',
-      'techstack':'Tech Stack: languages, web, databases, cloud, infrastructure as code, AI, networking, monitoring, hardware, systems, and design, with the original technology logos.',
+      'techstack':'Tech Stack: 11 themed cards with tool names and technology icons for languages, web, databases, infrastructure as code, cloud, AI, networking, monitoring, hardware, systems, and design. The complete text list is below.',
       'certifications':'; '.join(code+' — '+name+' · '+issuer for code,name,issuer in DATA['certifications']),
       'footer':'Go Gopher × Duck of IT. Stay curious. Keep building. atibodee.13chady.com.'}
     out=[picture('hero',descriptions['hero'],True),'','<p align="center">']
@@ -368,9 +420,6 @@ def readme():
     out+=['</p>','']
     for name in ['about','projects','research','awards','techstack','certifications']:
         out += [picture(name,descriptions[name]),'']
-        if name=='techstack':
-            for group in json.loads((ROOT/'tech-stack.json').read_text()):
-                out += ['### '+group['category'],'','<p>'+group['html']+'</p>','']
         if name=='projects':
             out += ['<p align="center"><a href="https://github.com/13D4C/Physical-Com-Project">Smart Farm IoT repository ↗</a> · <a href="https://13d4c.github.io/Physical-Com-Project/">Smartpot website ↗</a> · <a href="https://atibodee.13chady.com">Portfolio ↗</a></p>','']
     out += ['<details>','<summary><strong>Read the full profile and complete technology stack as text</strong></summary>','',
@@ -421,6 +470,8 @@ def previews():
         sheet.save(OUT/('preview-mobile.png' if mobile else 'preview-full.png'))
         if not mobile:
             sheet.crop((0,0,872,round(pics[0].height+pics[1].height+pics[2].height+108))).save(OUT/'preview.png')
+    im=techstack(False,limit=4)
+    im.resize((840,round(im.height*.7)),Image.Resampling.LANCZOS).save(OUT/'techstack-preview.png')
 
 
 def main():
